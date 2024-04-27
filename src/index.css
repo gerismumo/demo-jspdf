@@ -18,12 +18,8 @@ code {
   display: flex;
   flex-direction: column;
   font-family: Arial, sans-serif;
-  /* width: 70%; */
-  margin: 0 auto;
   border: 1px solid #ccc;
-  padding: 20px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 0 auto;
 }
 
 .header {
@@ -65,4 +61,51 @@ code {
   border: none;
   font-size: 25px;
   border-radius: 6px;
+}
+
+.doc-page {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.doc-page .doc {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.doc-page .input {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+
+.doc-page input {
+  width: 500px;
+  padding: 10px;
+  border: 1px solid blueviolet;
+  border-radius: 4px;
+}
+
+ button {
+  background-color: blueviolet;
+  color: white;
+  padding: 8px 20px;
+  outline: none;
+  border: none;
+  font-size: 25px;
+  border-radius: 6px;
+}
+
+.home-page {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
 }

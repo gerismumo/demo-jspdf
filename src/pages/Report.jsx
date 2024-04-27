@@ -4,7 +4,7 @@ import React from 'react';
 
 const Report = ({ recipientName, recipientAddress, reason, index }) => {
   return (
-    <div id={`pdf-content-${index}`} style={{ width: "210mm" }} className="formal-letter">
+    <div id={`pdf-content-${index}`} style={{ width: "210mm", height: "297mm" ,padding: "20px 40px" }} className="formal-letter">
       <div className="header">
         <div className="logo">
           <img src="../../images/download (1).png" alt=""
